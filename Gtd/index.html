@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gtd</title>
+    <title>gtd</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -17,18 +17,20 @@
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <header class="navbar">
       <div class="container">
-        <div class="brand">
-          <span class="logo">Gtd.</span>
-        </div>
+        <span class="logo">gtd.</span>
         <div class="search-bar">
-          <input class="imput-field" type="search" placeholder="search" />
+          <input class="search-bar__imput" type="search" placeholder="search" />
         </div>
       </div>
     </header>
@@ -38,9 +40,9 @@
     <main class="about">
       <div class="container">
         <div class="about-images">
-          <img class="member-img" src="./assets/person.jpg" alt="" />
-          <img class="member-img" src="./assets/woman.jpg" alt="" />
-          <img class="member-img" src="./assets/man.jpg" alt="" />
+          <img class="about-images__img" src="./assets/Lisa.jpg" alt="" />
+          <img class="about-images__img" src="./assets/Danielle.jpg" alt="" />
+          <img class="about-images__img" src="./assets/Brian.jpg" alt="" />
         </div>
         <div class="about-text">
           <h2>How it started</h2>
@@ -55,19 +57,51 @@
     <section class="contact">
       <div class="container">
         <div class="member-card">
-          <img class="contact-img" src="/Gtd/assets/person.jpg" alt="" />
-          <h5>Lisa</h5>
-          <span>lisa@gtd.co</span>
+          <img class="member-card__img" src="/Gtd/assets/Lisa.jpg" alt="" />
+          <div class="member-card__text">
+            <h5>Lisa</h5>
+            <span>lisa@gtd.co</span>
+          </div>
         </div>
         <div class="member-card">
-          <img class="contact-img" src="/Gtd/assets/woman.jpg" alt="" />
-          <h5>Danielle</h5>
-          <span>Danielle@gtd.co</span>
-          <span>+3706989737</span>
+          <img class="member-card__img" src="/Gtd/assets/Danielle.jpg" alt="" />
+          <div class="member-card__text">
+            <h5>Danielle</h5>
+            <span>Danielle@gtd.co</span>
+            <span>+3706989737</span>
+          </div>
         </div>
       </div>
     </section>
     <div class="yellow-line"></div>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-nav">
+          <h4 class="footer-nav__heading">Team</h4>
+          <a href="#" class="footer-nav__link">Lisa</a>
+          <a href="#" class="footer-nav__link">Danielle</a>
+          <a href="#" class="footer-nav__link">Brian</a>
+          <a href="#" class="footer-nav__link">Join us!</a>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-nav__heading">Learn More</h4>
+          <a href="#" class="footer-nav__link">Manifesto</a>
+          <a href="#" class="footer-nav__link">Works</a>
+          <a href="#" class="footer-nav__link">Stories</a>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-nav__heading">Meet Us</h4>
+          <a href="#" class="footer-nav__link">Studio</a>
+          <a href="#" class="footer-nav__link">Community</a>
+          <a href="#" class="footer-nav__link">Workshops</a>
+        </div>
+        <div class="footer-nav">
+          <h4 class="footer-nav__heading">Contact</h4>
+          <a href="#" class="footer-nav__link">Twitter</a>
+          <a href="#" class="footer-nav__link">Facebook</a>
+          <a href="#" class="footer-nav__link">Instagram</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

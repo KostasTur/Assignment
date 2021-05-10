@@ -1,39 +1,56 @@
 @media screen and (min-width: 768px) {
+  /* universal */
   .container {
     width: 750px;
     margin: 0 auto;
   }
+
+  /* navbar */
   .navbar > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .search-bar {
     margin: 0;
   }
 
+  /* about */
   .about-images {
     margin-top: -5rem;
   }
-  .member-img {
-    border-radius: 50%;
+  .about-images__img {
     width: 10rem;
     height: 10rem;
   }
+
+  /* contact */
   .contact > .container {
     padding: 1rem;
     display: flex;
     align-items: center;
   }
+
   .member-card {
-    text-align: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 6rem;
   }
-  .contact-img {
+
+  .member-card__img {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
+  }
+  .member-card__text {
+    margin-left: 0.2rem;
+  }
+
+  /* footer */
+  .footer > .container {
+    display: flex;
+    justify-content: space-between;
   }
 }

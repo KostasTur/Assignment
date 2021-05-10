@@ -1,0 +1,22 @@
+.about {
+  padding: 0.5rem;
+}
+
+.about-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-images__img {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.about-text h2 {
+  color: var(--yellow);
+}

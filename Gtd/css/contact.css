@@ -1,0 +1,24 @@
+.contact {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.member-card {
+  text-align: center;
+}
+
+.member-card__text h5 {
+  color: var(--yellow);
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.member-card__text span {
+  display: block;
+}
+
+.member-card__img {
+  border-radius: 50%;
+  width: 45vw;
+  height: 45vw;
+}
