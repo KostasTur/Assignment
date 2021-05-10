@@ -1,0 +1,20 @@
+footer {
+  background-color: var(--grey);
+}
+
+.footer-nav {
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-nav__heading {
+  color: var(--yellow);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav__link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
