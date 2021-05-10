@@ -4,8 +4,9 @@
   --yellow: #ffbc40;
 }
 
+/* hero */
 .hero {
-  height: 550px;
+  height: 60vh;
   background-image: url(/Gtd/assets/hero-bg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,40 +19,8 @@
 .hero__heading {
   color: var(--grey);
 }
-.about {
-  padding: 0.5rem;
-}
-.about-images {
-  display: flex;
-  justify-content: space-between;
-}
-.member-img {
-  border-radius: 50%;
-  width: 30vw;
-  height: 30vw;
-}
-.about-text {
-  text-align: center;
-}
-.about-text h2 {
-  color: var(--yellow);
-}
-
-.member-card {
-  text-align: center;
-}
-.member-card h5 {
-  color: var(--yellow);
-  margin-top: 0.2rem;
-  margin-bottom: 0.4rem;
-}
-.contact-img {
-  border-radius: 50%;
-  width: 40vw;
-  height: 40vw;
-}
 
 .yellow-line {
-  height: 1rem;
+  height: 1vh;
   background-color: var(--yellow);
 }
