@@ -1,0 +1,27 @@
+.navbar {
+  background-color: var(--grey);
+  padding: 0.5rem;
+}
+
+.brand {
+  text-align: center;
+
+  padding: 0.2rem;
+}
+
+.logo {
+  color: white;
+  font-size: larger;
+}
+.search-bar {
+  width: 10rem;
+  margin: 0 auto;
+  padding: 0.2rem;
+}
+
+.imput-field {
+  width: 100%;
+  padding-left: 2rem;
+  background-image: url(/Gtd/assets/search.svg);
+  background-repeat: no-repeat;
+}

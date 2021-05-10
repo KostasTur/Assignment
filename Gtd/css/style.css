@@ -3,3 +3,18 @@
   --grey: #707070;
   --yellow: #ffbc40;
 }
+
+.hero {
+  height: 500px;
+  background-image: url(/Gtd/assets/hero-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__heading {
+  color: var(--grey);
+}
