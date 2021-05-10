@@ -1,11 +1,11 @@
 .navbar {
   background-color: var(--grey);
   padding: 0.5rem;
+  text-align: center;
 }
 
 .brand {
-  text-align: center;
-
+  width: 2rem;
   padding: 0.2rem;
 }
 
@@ -21,7 +21,9 @@
 
 .imput-field {
   width: 100%;
-  padding-left: 2rem;
+  padding-left: 1.2rem;
   background-image: url(/Gtd/assets/search.svg);
   background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1rem;
 }
